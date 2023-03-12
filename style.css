@@ -1,0 +1,202 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    background: rgb(148, 144, 144);
+    height: 100vh;
+    display: flex;
+    align-items: center;justify-content: center;
+}
+.container{
+    width: 220px;
+    height: 450px;
+    margin: auto;
+    border: 3px solid rgb(170, 192, 221);
+    margin-top: 50px;
+    border-radius: 35px;
+    background: linear-gradient(to bottom, #bdd4ee 0%, #93a9c1);
+    box-shadow: 0px 2px 3px -1px grey;
+    position: relative;
+}
+.container::before{
+        content: "";
+        width: 2px;
+        height: 60px;
+        background-color: rgb(170, 192, 221);
+        position: absolute;
+        top: 32%;
+        left: -6px;
+        box-shadow: 0px 0px 4px #93a9c1;
+        border-radius: 20px;
+}
+.container::after{
+    content: "";
+    width: 2px;
+    height: 37px;
+    background-color: rgb(170, 192, 221);
+    position: absolute;
+    top: 33%;
+    left: -6px;
+    box-shadow: 0px 0px 4px #93a9c1; 
+    border-radius: 20px;
+}
+
+.camera-b{
+    width: 116px;
+    height: 118px;
+    border-radius: 30px;
+    background :linear-gradient(to bottom, #fcdcf4 0% , #8ca2b8 100%);
+    position:relative;
+    top: 10px;
+    box-shadow: 0px 1px 1px 0.5px grey;
+    left: 9px;
+    border: 2px solid #96abbf;
+    text-align: center;
+}
+.camera{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: rgb(28, 28, 28);
+    border: 4px solid #aecbea;
+    box-shadow: 0px 6px 3px rgb(105, 103,103);
+}
+
+.camera-one{
+    position:absolute;
+    top: 4px;
+    left: 8px;
+}
+.camera-two{
+    position:absolute;
+    bottom: 6px;
+    left: 8px;
+}
+.camera-three{
+    position:absolute;
+    top: 30px;
+    left: 59px;
+}
+
+.ombre-camera{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    border-radius: 100%;
+    top: 8px;
+    right: 8.2px;
+     background: radial-gradient(#3d77ae 30%, #11203a);
+}
+.camera-bas{
+    width: 17px;
+    height: 17px;
+    background-color: rgb(28, 28, 28);
+    border-radius: 100%;
+    bottom: 8px;
+    right: 23px;
+    box-shadow:1px 3px 5px #5a5a5a ;
+    position: absolute;
+}
+
+.camera-roule{
+width: 3px;
+height: 4px;
+background: rgb(28, 28, 28);
+border-radius: 100%;
+position: absolute;
+bottom: 21px;
+right: 9px;
+}
+
+.flash{
+    width:17px;
+    height: 17px;
+    background-color: rgb(28, 28, 28);
+    border-radius: 100%;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    border: 2px solid #cfc4bd;
+    background: radial-gradient(#f5e3d5 30%, #fff2e6 15%);
+    box-shadow: 0px 1px 1px 1px grey ;
+}
+.logo-apple img{
+    width: 60px;
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 75px;
+     
+}
+
+
+
+
+
+
+.container2{
+    width: 220px;
+    height: 450px;
+    margin: auto;
+    border: 4px solid rgb(170, 192, 221);
+    margin-top: 50px;
+    border-radius: 35px;
+    background-image: url(fond-ecran.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 2px 3px -1px grey;
+    position: relative;
+    right: 540px;
+}
+
+.container-black{
+    width: 210px;
+    height: 444px;
+    margin: auto;
+    border: 6px solid black;
+    border-radius: 35px;
+
+}
+.camera-haut{
+    top: 0;
+    left: 50px;
+    background:black;
+    width: 130px;
+    height: 30px;
+    position: absolute;
+    border-radius: 0px 0px 20px 20px ;
+}
+.cercle{
+    position: absolute;
+    bottom: 6px;
+    left: 12px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    border: .2rem solid #1e1f22;
+    background: #44b5a6;
+}
+.cercle2{
+    position: absolute;
+    right: 40px;
+    width: 50px;
+    bottom: 20px;
+    height: 4px;
+    background: #333;
+    border-radius: 2rem;
+}
+.cred{
+    position: absolute;
+    bottom: 0;
+    left: 40px;
+
+}
+.cred h4{
+    color: white;
+    font-weight: 800;
+}
+.cred h4 span{
+    color: #44b5a6;
+}
