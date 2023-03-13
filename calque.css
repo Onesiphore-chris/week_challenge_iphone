@@ -148,7 +148,29 @@ right: 9px;
     background-size: cover;
     box-shadow: 0px 2px 3px -1px grey;
     position: relative;
-    right: 540px;
+    right: 875px;
+}
+.container2::before{
+    content: "";
+    width: 2px;
+    height: 60px;
+    background-color:rgb(33, 47, 54);
+    position: absolute;
+    top: 20%;
+    left: -6px;
+    box-shadow: 0px 0px 4px #93a9c1;
+    border-radius: 20px;
+}
+.container2::after{
+content: "";
+width: 2px;
+height: 37px;
+background-color: rgb(33, 47, 54);
+position: absolute;
+top: 20%;
+left: -6px;
+box-shadow: 0px 0px 4px #93a9c1; 
+border-radius: 20px;
 }
 
 .container-black{
@@ -200,3 +222,107 @@ right: 9px;
 .cred h4 span{
     color: #44b5a6;
 }
+
+
+
+@media (max-width:1200px){
+
+    .header{
+        padding: 1.5rem 2rem;
+    }
+    section{
+        padding: 3rem 5% ;
+    }
+}
+@media (max-width:991px){
+    html{
+        font-size: 55%;
+    }
+    section{
+        padding: 3rem 2rem;
+    }
+
+        
+    }
+    @media (max-width:768px){
+        .header .search-form{
+            width: 90%;
+        }
+        .header .login-form{
+            width: 90%;
+
+        }
+        .home .slide{
+            justify-content: center;
+        }
+        .home .slide .content{
+            text-align: center;
+        }
+        .home .slide h3{
+            font-size: 3rem;
+        }
+        .pub{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .pub .h3{
+            font-size: 2rem;
+
+        }
+        .quick{
+            flex-flow: column;
+            text-align: center;
+
+        }
+        .navbar2{
+            padding: 2rem 0;
+        }
+        .navbar2 a{
+            display: block;
+            font-size: 2rem;
+            padding: 1rem 0;
+        }
+        .share-2 a{
+            margin: 0 1rem;
+
+        }
+        .credit{
+            flex-flow: column;
+        }
+        .arrivals .box-container .box{
+            flex-flow: column;
+            text-align: center;
+            gap: 2rem;
+        }
+        .content form .inputBox input{
+            width: 100%;
+        }
+    }
+
+@media (max-width:450px){
+    html{
+        font-size: 50%;
+    }
+    .newletter{
+        text-align: center;
+
+    }
+    .newletter .content{
+        font-size: 4rem;
+    }
+    .newletter .content p{
+        font-size: 1.7rem;
+    }
+}
+
+
+@media (max-width:352px){
+    html{
+        font-size: 40%;
+    }
+    .header .search-form{
+        width: 90%;
+    }
+    .header .login-form{
