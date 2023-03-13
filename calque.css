@@ -154,7 +154,7 @@ right: 9px;
     background-size: cover;
     box-shadow: 0px 2px 3px -1px grey;
     position: relative;
-    right: 75px;
+    right: 80px;
 }
 .container2::before{
     content: "";
@@ -231,80 +231,23 @@ border-radius: 20px;
 
 
 
-@media (max-width:1200px){
+@media (max-width:766px){
+   
+    .G-container{
+       width: 28.5rem;
+        display: flex;
+        align-items: center;
+    }
+    @media (max-width:500px){
+        .G-container{
+            width: 28.5rem;
+             display: flex;
+             align-items: center;
+             justify-content: center;
+             position: absolute;
+             left: 40px;
+         }
+    }
 
-    .header{
-        padding: 1.5rem 2rem;
-    }
-    section{
-        padding: 3rem 5% ;
-    }
+
 }
-@media (max-width:991px){
-    html{
-        font-size: 55%;
-    }
-    section{
-        padding: 3rem 2rem;
-    }
-
-        
-    }
-    @media (max-width:768px){
-        .header .search-form{
-            width: 90%;
-        }
-        .header .login-form{
-            width: 90%;
-
-        }
-        .home .slide{
-            justify-content: center;
-        }
-        .home .slide .content{
-            text-align: center;
-        }
-        .home .slide h3{
-            font-size: 3rem;
-        }
-        .pub{
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
-        }
-        .pub .h3{
-            font-size: 2rem;
-
-        }
-        .quick{
-            flex-flow: column;
-            text-align: center;
-
-        }
-        .navbar2{
-            padding: 2rem 0;
-        }
-        .navbar2 a{
-            display: block;
-            font-size: 2rem;
-            padding: 1rem 0;
-        }
-        .share-2 a{
-            margin: 0 1rem;
-
-        }
-        .credit{
-            flex-flow: column;
-        }
-        .arrivals .box-container .box{
-            flex-flow: column;
-            text-align: center;
-            gap: 2rem;
-        }
-        .content form .inputBox input{
-            width: 100%;
-        }
-    }
-
-
